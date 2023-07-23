@@ -1,4 +1,4 @@
-# Hyprland --> A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
+# Hyprland Dot Files
 
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
