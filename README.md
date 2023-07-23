@@ -1,5 +1,4 @@
-# HyprV2
-An improved Hyprland deployment
+# Hyprland --> A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
 
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
