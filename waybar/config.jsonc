@@ -8,7 +8,7 @@
     "height": 50,
     "modules-left": ["custom/launch_wofi","hyprland/workspaces","cpu","memory","disk","clock"],
     "modules-center": ["wlr/taskbar"],
-    "modules-right": ["network","battery","backlight","pulseaudio","pulseaudio#microphone","tray","custom/light_dark"],
+    "modules-right": ["network","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
     
 
     "hyprland/window": {
@@ -49,6 +49,7 @@
     "wlr/taskbar": {
         "format": "{icon}",
         "icon-size": 18,
+        "spacing": 0,
         "on-click-middle" : "close",
         "tooltip-format": "{title}",
         "on-click": "activate"
@@ -102,7 +103,7 @@
         "format-disconnected": "睊",
         "tooltip-format": "{essid}",
         "on-click": "kitty nmtui",
-        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤢 ","󰤨 "],
+        "format-icons": ["󰤯 ","󰤟 ","󰤢 ","󰤢 ","󰤨 "]
     },
 
     "battery": {
